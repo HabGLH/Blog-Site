@@ -1,0 +1,44 @@
+2025-10-18 19:38:58 [ERROR]: Not Found - / | GET / | Stack: Error: Not Found - /
+    at file:///home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/server.js:51:15
+    at Layer.handleRequest (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:342:13)
+    at /home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:297:9
+    at processParams (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:582:12)
+    at next (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:291:5)
+    at logger (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/morgan/index.js:144:5)
+    at Layer.handleRequest (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:342:13)
+    at /home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:297:9
+2025-10-18 19:38:58 [ERROR]: Not Found - /favicon.ico | GET /favicon.ico | Stack: Error: Not Found - /favicon.ico
+    at file:///home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/server.js:51:15
+    at Layer.handleRequest (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:342:13)
+    at /home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:297:9
+    at processParams (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:582:12)
+    at next (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:291:5)
+    at logger (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/morgan/index.js:144:5)
+    at Layer.handleRequest (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:342:13)
+    at /home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:297:9
+2025-10-18 19:57:39 [ERROR]: Not authorized, no token | GET /api/auth/verify | Stack: Error: Not authorized, no token
+    at protect (file:///home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/middleware/authMiddleware.js:28:11)
+    at Layer.handleRequest (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/layer.js:152:17)
+    at /home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:295:15
+    at processParams (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:582:12)
+    at next (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:291:5)
+    at Function.handle (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:186:3)
+2025-10-18 19:57:49 [ERROR]: Not authorized, no token | GET /api/auth/verify | Stack: Error: Not authorized, no token
+    at protect (file:///home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/middleware/authMiddleware.js:28:11)
+    at Layer.handleRequest (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/lib/layer.js:152:17)
+    at /home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:295:15
+    at processParams (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:582:12)
+    at next (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:291:5)
+    at Function.handle (/home/habtamu/Documents/Programing/Re_Project/Blogsite/Backend/node_modules/router/index.js:186:3)

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* small fade-in for new comments */
+.fade-in {
+  animation: fadeInUp 260ms ease both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
